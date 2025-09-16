@@ -1,0 +1,63 @@
+.hana {
+	align-items: center;
+	text-align: right;
+	border: 2px solid red;
+	border-radius: 10px;
+
+	padding: 10px;
+	margin: 100px 0px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	color: red;
+	background-color: #ccc;
+
+	box-shadow: -10px 10px 10px grey;
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden; /* Hide text that exceeds the box */
+	text-overflow: ellipsis; /* Add ellipsis (...) for overflowed text */
+}
+
+.containthem {
+	display: grid; /* Use grid layout */
+	grid-template-columns: repeat(2, 1fr);
+	/* Create 2 equal-width columns for 2 .Hgames items */
+	gap: 20px; /* Space between the grid items */
+	justify-items: center; /* Center the grid items horizontally */
+	padding: 20px;
+}
+.h1games {
+	text-align: center;
+	align-self: flex-start; /* Ensure "PPT games" stays at the top of its container */
+	margin-top: 0; /* Optional: Removes default margin */
+	font-size: 1.5em; /* Adjust the font size if needed */
+	padding-bottom: 10px; /* Optional: Add space between the title and list */
+}
+.Hgames {
+	font-weight: bold;
+	border: green 1px solid;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+.Hgames ol li {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: normal;
+}
+.hana:hover {
+	background-color: #000;
+	color: white;
+}
+.hana:active {
+	background-color: rgba(48, 45, 45, 0.767);
+	color: white;
+}
+.wildhunt {
+	width: 50;
+	max-width: 100%;
+	height: auto;
+}
